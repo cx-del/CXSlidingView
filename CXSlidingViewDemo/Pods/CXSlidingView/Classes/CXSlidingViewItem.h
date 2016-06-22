@@ -15,8 +15,8 @@ typedef NS_ENUM(NSInteger, CXSlidingMoveType) {
 };
 
 @class CXSlidingViewItem;
-@protocol CXSlidingViewItemDelegate <NSObject>
 
+@protocol CXSlidingViewItemDelegate <NSObject>
 
 - (void)slidingViewItem:(CXSlidingViewItem *)item slidingValue:(CGFloat )value;
 

@@ -62,9 +62,6 @@
     return self;
 }
 - (void)stupView {
-    self.layer.cornerRadius = 5;
-    self.layer.borderWidth = 1;
-    self.layer.borderColor = [[UIColor grayColor] CGColor];
     
     self.backgroundColor = [UIColor whiteColor];
     _initialOffSet = 0;
@@ -116,10 +113,8 @@
 #pragma mark - event
 - (void)handlePan:(UIPanGestureRecognizer *)sender {
     
-    //开始拖动
     if (sender.state == UIGestureRecognizerStateBegan) {
     }
-    //拖动中
     if (sender.state == UIGestureRecognizerStateChanged) {
         CGPoint translation = [sender translationInView:self.superview];
         sender.view.center = CGPointMake(sender.view.center.x + translation.x, sender.view.center.y + translation.y);
@@ -128,7 +123,6 @@
             [self.delegate slidingViewItem:self slidingValue:[self getSlidingValue:self.frame]];
         }
     }
-    //结束拖动
     if (sender.state == UIGestureRecognizerStateEnded) {
         BOOL isComeBack = [self VerifyTheLocation];
         if (isComeBack) {

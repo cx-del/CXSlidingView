@@ -33,10 +33,7 @@
     [self.slidingView reloadSlidingView];
     
     [self addButton];
-//    UITableView
 }
-
-
 
 #pragma mark - buttonClick
 
@@ -67,7 +64,6 @@
 }
 
 #pragma mark - CXSlidingViewDelegate
-
 - (UIEdgeInsets )slidingView:(CXSlidingView *)slidingView edgeForItemAtIndex:(NSInteger )index {
     return UIEdgeInsetsMake(20, 20, 20, 20);
 }

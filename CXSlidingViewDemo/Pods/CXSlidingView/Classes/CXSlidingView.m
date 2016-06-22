@@ -61,7 +61,7 @@
         if (self.viewArray.count>=1) {
             [_viewArray insertObject:item atIndex:0];
         }else {
-            [_viewArray addObject:item];//insertObject:item atIndex:0];
+            [_viewArray addObject:item];
         }
     }
     self.viewArray.firstObject.delegate = self;
@@ -89,7 +89,6 @@
     }
 }
 
-
 /** 已经从父试图中移除 */
 - (void)removedFromSuperview:(CXSlidingViewItem *)item {
     
@@ -112,9 +111,6 @@
         }
         _canRemoveTopView = canMove;
     }
-    
-    
-    
 }
 
 - (void)insertSlidingViewAtFirst {
@@ -144,12 +140,12 @@
     item.initialOffSet = _viewArray.lastObject.initialOffSet - 50;
     
     [self insertSubview:item belowSubview:_viewArray.lastObject];
-    [_viewArray addObject:item];//insertObject:item atIndex:0];
+    [_viewArray addObject:item];
 }
 
 - (void)updateViewArray {
     
-    [_viewArray removeObject:_viewArray.firstObject];//removeLastObject];
+    [_viewArray removeObject:_viewArray.firstObject];
     [self insertSlidingViewAtFirst];
     
     for (CXSlidingViewItem * item in _viewArray) {
@@ -224,7 +220,6 @@
 
 - (CXSlidingViewItem *)dequeueReusableItemWithIdentifier:(NSString *)identifier {
     CXSlidingViewItem * sidingView = [self.itemDict objectForKey:identifier];
-    
     return sidingView;
 }
 
