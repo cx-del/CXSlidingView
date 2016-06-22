@@ -5,4 +5,6 @@ platform :ios, "7.0"
 
 pod 'SDWebImage', '~> 3.8.1'
 
+pod 'CXSlidingView', '~>1.0.2'
+
 end
