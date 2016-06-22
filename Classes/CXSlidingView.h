@@ -31,7 +31,7 @@
 
 - (NSInteger)numberOfItemInSlidingView:(CXSlidingView *)slidingView;
 
-- (CXSlidingViewItem *)slidingView:(CXSlidingView *)slidingView itemWithNumber:(NSInteger )index;
+- (__kindof CXSlidingViewItem *)slidingView:(CXSlidingView *)slidingView itemWithNumber:(NSInteger )index;
 
 @end
 
@@ -49,7 +49,7 @@
 @property (nonatomic,assign) CGFloat criticalValue;
 
 
-- (CXSlidingViewItem *)dequeueReusableItemWithIdentifier:(NSString *)identifier;
+- (__kindof CXSlidingViewItem *)dequeueReusableItemWithIdentifier:(NSString *)identifier;
 
 - (void)reloadSlidingView;
 
