@@ -21,7 +21,6 @@
 
 @property (nonatomic,assign) BOOL notLayout;
 
-//@property (nonatomic,weak) NSTimer * timer;
 @property (nonatomic,strong) CADisplayLink * displayLink;
 
 @end
@@ -67,6 +66,7 @@
     self.layer.borderWidth = 1;
     self.layer.borderColor = [[UIColor grayColor] CGColor];
     
+    self.backgroundColor = [UIColor whiteColor];
     _initialOffSet = 0;
     self.criticalValue = self.frame.size.width/2;
     _panGestureRecognizer = [[UIPanGestureRecognizer alloc] init];

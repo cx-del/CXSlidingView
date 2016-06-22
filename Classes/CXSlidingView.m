@@ -75,7 +75,7 @@
     }
 }
 
-#pragma mark - CXBaseSlidingViewDelegate 
+#pragma mark - CXBaseSlidingViewDelegate
 
 - (void)slidingViewItem:(CXSlidingViewItem *)item slidingValue:(CGFloat )value {
     if (item == _viewArray.firstObject) {
@@ -102,7 +102,7 @@
         [self.delegate topViewRemovedFromSupperView:self slidingViewItem:slidingView];
     }
     [self updateViewArray];
-
+    
     if (self.viewArray.count > 1) {
         _canRemoveTopView = YES;
     }else {
@@ -112,9 +112,9 @@
         }
         _canRemoveTopView = canMove;
     }
-
     
-
+    
+    
 }
 
 - (void)insertSlidingViewAtFirst {
@@ -142,7 +142,7 @@
     
     item.frame = CGRectMake(edge.left, edge.top, CGRectGetWidth(self.frame) - edge.left - edge.right, CGRectGetHeight(self.frame) - edge.top - edge.bottom);
     item.initialOffSet = _viewArray.lastObject.initialOffSet - 50;
-
+    
     [self insertSubview:item belowSubview:_viewArray.lastObject];
     [_viewArray addObject:item];//insertObject:item atIndex:0];
 }
@@ -151,7 +151,7 @@
     
     [_viewArray removeObject:_viewArray.firstObject];//removeLastObject];
     [self insertSlidingViewAtFirst];
-
+    
     for (CXSlidingViewItem * item in _viewArray) {
         item.initialOffSet +=50;
     }
@@ -224,6 +224,10 @@
 
 - (CXSlidingViewItem *)dequeueReusableItemWithIdentifier:(NSString *)identifier {
     CXSlidingViewItem * sidingView = [self.itemDict objectForKey:identifier];
+    UIEdgeInsets edge = [self getSlidingViewEdgeWithIndex:index];
+    
+    sidingView.frame = CGRectMake(edge.left, edge.top, CGRectGetWidth(self.frame) - edge.left - edge.right, CGRectGetHeight(self.frame) - edge.top - edge.bottom);
+    
     return sidingView;
 }
 
