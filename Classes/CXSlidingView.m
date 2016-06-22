@@ -224,9 +224,6 @@
 
 - (CXSlidingViewItem *)dequeueReusableItemWithIdentifier:(NSString *)identifier {
     CXSlidingViewItem * sidingView = [self.itemDict objectForKey:identifier];
-    UIEdgeInsets edge = [self getSlidingViewEdgeWithIndex:index];
-    
-    sidingView.frame = CGRectMake(edge.left, edge.top, CGRectGetWidth(self.frame) - edge.left - edge.right, CGRectGetHeight(self.frame) - edge.top - edge.bottom);
     
     return sidingView;
 }
