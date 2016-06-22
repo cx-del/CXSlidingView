@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8D1CE95939E601BE0251D8011246F6712BD3E7B1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8D1CE95939E601BE0251D8011246F6712BD3E7B1" : 0,
+    "CFF14DFB2EB693E8B6163282CBF75DF7EEE6A45E" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D27DCE2C-AF5A-4B6E-B330-DE667B327590",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8D1CE95939E601BE0251D8011246F6712BD3E7B1" : "CXSlidingView\/",
+    "CFF14DFB2EB693E8B6163282CBF75DF7EEE6A45E" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CXSlidingViewDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CXSlidingViewDemo\/CXSlidingViewDemo.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/DaiChenxi\/CXSlidingView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8D1CE95939E601BE0251D8011246F6712BD3E7B1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/DaiChenxi\/CXSliding.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CFF14DFB2EB693E8B6163282CBF75DF7EEE6A45E"
+    }
+  ]
+}

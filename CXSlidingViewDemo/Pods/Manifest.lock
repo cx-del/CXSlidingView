@@ -1,0 +1,17 @@
+PODS:
+  - CXSlidingView (1.0.0)
+  - SDWebImage (3.8.1):
+    - SDWebImage/Core (= 3.8.1)
+  - SDWebImage/Core (3.8.1)
+
+DEPENDENCIES:
+  - CXSlidingView (~> 1.0.0)
+  - SDWebImage (~> 3.8.1)
+
+SPEC CHECKSUMS:
+  CXSlidingView: c00cb843c0886be818c90da8fcee0a147f3bbdac
+  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+
+PODFILE CHECKSUM: 0ce1c86c5e14a2d1e72cc8f4f825de4da5de7ad2
+
+COCOAPODS: 1.0.1
