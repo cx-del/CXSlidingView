@@ -55,11 +55,15 @@
     CXTestItem * item = (CXTestItem *)[slidingView dequeueReusableItemWithIdentifier:itemID];
     if (!item) {
         item = [[CXTestItem alloc] initWithIdentifier:itemID];
+        
+        // 加边界
+        item.layer.cornerRadius = 5;
+        item.layer.borderWidth = 1;
+        item.layer.borderColor = [[UIColor grayColor] CGColor];
     }
-    
+    item.imageView.contentMode = UIViewContentModeScaleAspectFit;
     NSURL * imageUrl = [NSURL URLWithString:self.imagesArray[index]];
-    [item.imageView sd_setImageWithURL:imageUrl];
-    
+    [item.imageView sd_setImageWithURL:imageUrl placeholderImage:[UIImage imageNamed:@"1.jpg"]];
     return item;
 }
 
@@ -95,7 +99,7 @@
 
 - (CXSlidingView *)slidingView {
     if (!_slidingView) {
-        _slidingView = [[CXSlidingView alloc] initWithFrame:CGRectMake(0, 30, KScreenWidth, 500)];
+        _slidingView = [[CXSlidingView alloc] initWithFrame:CGRectMake(0, 30, KScreenWidth, KScreenHeight - 100 - 30)];
         _slidingView.datasouce = self;
         _slidingView.delegate = self;
     }

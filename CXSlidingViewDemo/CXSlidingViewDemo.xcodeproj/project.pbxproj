@@ -17,6 +17,7 @@
 		1FCDB95D1D1A3636004A4628 /* TYJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FCDB95C1D1A3636004A4628 /* TYJSON.m */; };
 		1FCDB95F1D1A3DB4004A4628 /* images.json in Resources */ = {isa = PBXBuildFile; fileRef = 1FCDB95E1D1A3DB4004A4628 /* images.json */; };
 		1FCDB9621D1A3E4E004A4628 /* CXTestItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FCDB9611D1A3E4E004A4628 /* CXTestItem.m */; };
+		1FD120C81D1A61F70076FD2C /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1FD120C71D1A61F70076FD2C /* 1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		1FCDB95E1D1A3DB4004A4628 /* images.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = images.json; sourceTree = "<group>"; };
 		1FCDB9601D1A3E4E004A4628 /* CXTestItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXTestItem.h; sourceTree = "<group>"; };
 		1FCDB9611D1A3E4E004A4628 /* CXTestItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXTestItem.m; sourceTree = "<group>"; };
+		1FD120C71D1A61F70076FD2C /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		565B6FAFD7A7C306715CE94A /* Pods-CXSlidingViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXSlidingViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CXSlidingViewDemo/Pods-CXSlidingViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		E713A1A02BD504DB2FE5E514 /* Pods-CXSlidingViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXSlidingViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CXSlidingViewDemo/Pods-CXSlidingViewDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,6 +79,7 @@
 				1FCDB9431D1A35B0004A4628 /* AppDelegate.m */,
 				1FCDB9451D1A35B0004A4628 /* ViewController.h */,
 				1FCDB9461D1A35B0004A4628 /* ViewController.m */,
+				1FD120C71D1A61F70076FD2C /* 1.jpg */,
 				1FCDB9601D1A3E4E004A4628 /* CXTestItem.h */,
 				1FCDB9611D1A3E4E004A4628 /* CXTestItem.m */,
 				1FCDB93F1D1A35B0004A4628 /* Supporting Files */,
@@ -180,6 +183,7 @@
 				1FCDB95F1D1A3DB4004A4628 /* images.json in Resources */,
 				1FCDB94C1D1A35B1004A4628 /* Assets.xcassets in Resources */,
 				1FCDB94A1D1A35B0004A4628 /* Main.storyboard in Resources */,
+				1FD120C81D1A61F70076FD2C /* 1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
