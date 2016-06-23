@@ -18,7 +18,7 @@
 		1FCDB95F1D1A3DB4004A4628 /* images.json in Resources */ = {isa = PBXBuildFile; fileRef = 1FCDB95E1D1A3DB4004A4628 /* images.json */; };
 		1FCDB9621D1A3E4E004A4628 /* CXTestItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FCDB9611D1A3E4E004A4628 /* CXTestItem.m */; };
 		1FD120C81D1A61F70076FD2C /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1FD120C71D1A61F70076FD2C /* 1.jpg */; };
-		1FD120FA1D1B799F0076FD2C /* 2016-06-23 09_45_07.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1FD120F91D1B799F0076FD2C /* 2016-06-23 09_45_07.gif */; };
+		1FD120FA1D1B799F0076FD2C /* showImage.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1FD120F91D1B799F0076FD2C /* showImage.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,7 +39,7 @@
 		1FCDB9601D1A3E4E004A4628 /* CXTestItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXTestItem.h; sourceTree = "<group>"; };
 		1FCDB9611D1A3E4E004A4628 /* CXTestItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXTestItem.m; sourceTree = "<group>"; };
 		1FD120C71D1A61F70076FD2C /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
-		1FD120F91D1B799F0076FD2C /* 2016-06-23 09_45_07.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "2016-06-23 09_45_07.gif"; sourceTree = "<group>"; };
+		1FD120F91D1B799F0076FD2C /* showImage.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = showImage.gif; sourceTree = "<group>"; };
 		565B6FAFD7A7C306715CE94A /* Pods-CXSlidingViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXSlidingViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CXSlidingViewDemo/Pods-CXSlidingViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		E713A1A02BD504DB2FE5E514 /* Pods-CXSlidingViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXSlidingViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CXSlidingViewDemo/Pods-CXSlidingViewDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,7 +91,7 @@
 		1FCDB93F1D1A35B0004A4628 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1FD120F91D1B799F0076FD2C /* 2016-06-23 09_45_07.gif */,
+				1FD120F91D1B799F0076FD2C /* showImage.gif */,
 				1FD120C71D1A61F70076FD2C /* 1.jpg */,
 				1FCDB95E1D1A3DB4004A4628 /* images.json */,
 				1FCDB95B1D1A3636004A4628 /* TYJSON.h */,
@@ -182,7 +182,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FD120FA1D1B799F0076FD2C /* 2016-06-23 09_45_07.gif in Resources */,
+				1FD120FA1D1B799F0076FD2C /* showImage.gif in Resources */,
 				1FCDB94F1D1A35B1004A4628 /* LaunchScreen.storyboard in Resources */,
 				1FCDB95F1D1A3DB4004A4628 /* images.json in Resources */,
 				1FCDB94C1D1A35B1004A4628 /* Assets.xcassets in Resources */,
