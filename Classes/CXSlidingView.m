@@ -123,7 +123,7 @@
     NSInteger index = 0;
     
     if (cycle) {
-        index =  _viewArray.lastObject.index + 1 > self.numberOfItem ? 0 : _viewArray.lastObject.index + 1;
+        index =  _viewArray.lastObject.index + 1 >= self.numberOfItem ? 0 : _viewArray.lastObject.index + 1;
     }else {
         if (_viewArray.count == 0 || _viewArray.lastObject.index + 1 >= self.numberOfItem) {
             return;
