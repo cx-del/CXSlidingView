@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "CXSlidingView"
-  s.version      = "1.0.3"
+  s.version      = "1.0.4"
   s.summary      = "A Sliding View used on iOS."
 
   # This description is used to generate tags and improve search results.
